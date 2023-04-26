@@ -65,8 +65,8 @@ nav{
     font-size: 1.25rem;
     margin-left: -50px;
 }
-.iphone14pro picture{
-    width:90%;
+.iphone14pro picture img{
+    width:100%;
 }
 @media  screen and (max-width: 373px){
     .iphone{
