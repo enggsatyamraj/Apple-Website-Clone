@@ -51,6 +51,7 @@ nav{
 .iphone{
     font-size:5rem;
     font-weight:bold;
+
 }
 .proBeyond{
     font-size:2rem;
@@ -65,8 +66,21 @@ nav{
     font-size: 1.25rem;
     margin-left: -50px;
 }
+.learnBuyList ul li{
+    cursor:pointer;
+}
+.learnBuyList ul li:hover{
+    text-decoration: underline;
+}
 .iphone14pro picture img{
     width:100%;
+}
+.another_iphone14pro{
+    background:#fff;
+    color:#000;
+}
+.another_iphone{
+    font-weight: normal;
 }
 @media  screen and (max-width: 373px){
     .iphone{
