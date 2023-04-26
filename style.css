@@ -23,6 +23,7 @@ nav{
     display:flex;
     gap:30px;
     margin-right:10%;
+    justify-content: space-between;
     margin-left:10%;
 }
 .div2{
@@ -64,9 +65,33 @@ nav{
     font-size: 1.25rem;
     margin-left: -50px;
 }
+@media  screen and (max-width: 373px){
+    .iphone{
+        font-size:1.5rem;
+    }
+    .proBeyond{
+        font-size:0.9rem;
+        margin-bottom: 3px;
+    }
+    .learnBuyList ul{
+        font-size: 1rem;
+    }
+
+}
+@media (max-width: 550px) and (min-width: 374px){
+    .iphone{
+        font-size:3rem;
+    }
+    .proBeyond{
+        font-size:1.25rem;
+    }
+    .learnBuyList ul{
+        font-size: 1.15rem;
+    }
+}
 @media screen and (max-width: 900px){
     .div2{
-        display:none;
+        display: none;
     }
 
 }
