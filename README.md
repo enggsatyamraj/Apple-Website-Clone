@@ -2,7 +2,7 @@
 ## PROJECT DESCRIPTION
 write a readme file for me , i am making an webpage clone of apple Website using html and css only.
 ## DEPLOYMENT
-This Project is deplaoyed at    .
+This Project is deplaoyed at https://satyaaam.github.io/Apple-Website-Clone/ .
 ## INSTALLATION
 To use this project, simply clone or download the repository to your local machine.
 ## USAGE
