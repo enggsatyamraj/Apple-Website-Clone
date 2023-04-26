@@ -1,0 +1,46 @@
+/*<i class="fa-brands fa-apple"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-solid fa-bag-shopping"></i>
+font-family:font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+body{
+    margin:0px;
+    padding:0px;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    background:#434344;
+    color:#fff;
+    font-size:0.75rem;
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.nav_supreme{
+    display:flex;
+    gap:30px;
+    margin-right:10%;
+    margin-left:10%;
+}
+.div2{
+    margin:0px;
+}
+.div2 ul{
+    display:flex;
+    gap:30px;
+    margin:0px;
+    list-style: none;
+}
+.div3{
+    display:flex;
+    gap:30px;
+}
+@media screen and (max-width: 900px){
+    .div2{
+        display:none;
+    }
+
+}
