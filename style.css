@@ -134,6 +134,16 @@ nav{
 .upgrade{
     text-align: center;
 }
+@media screen and (max-width:365px) {
+    .another_tradein {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:410px){
+    .another_tradein{
+        font-size:1.25rem;
+    }
+}
 @media  screen and (max-width: 373px){
     .iphone{
         font-size:1.5rem;
@@ -162,11 +172,17 @@ nav{
     .a_healthy{
         font-size: 1.5rem;
     }
+    .another_tradein{
+        font-size:1.5rem;
+    }
 }
 @media screen and (max-width: 735px){
     .flex_div{
         display:flex;
         flex-direction:column;
+    }
+    .another_tradein{
+        font-size:1.65rem;
     }
 }
 @media screen and (max-width: 900px){
@@ -175,6 +191,9 @@ nav{
     }
     .a_healthy{
         font-size: 1.75rem;
+    }
+    .another_tradein{
+        font-size:1.75rem;
     }
 
 }
