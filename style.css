@@ -88,6 +88,7 @@ nav{
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    padding-top: 40px;
 }
 .a_healthy{
     font-size:2rem;
@@ -96,6 +97,42 @@ nav{
 }
 .watch8_div img{
     width:100%;
+    height:auto;
+}
+.flex_div{
+    display:flex;
+    margin:10px;
+    gap:10px;
+}
+.main1{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main1 img{
+    width:100%;
+}
+.main2{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+    color:#fff;
+}
+.main2 img{
+    width:100%;
+}
+.tradein{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.upgrade{
+    text-align: center;
 }
 @media  screen and (max-width: 373px){
     .iphone{
@@ -124,6 +161,12 @@ nav{
     }
     .a_healthy{
         font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 735px){
+    .flex_div{
+        display:flex;
+        flex-direction:column;
     }
 }
 @media screen and (max-width: 900px){
