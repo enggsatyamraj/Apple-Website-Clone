@@ -105,7 +105,9 @@ nav{
     .learnBuyList ul{
         font-size: 1rem;
     }
-
+    .a_healthy{
+        font-size:1rem;
+    }
 }
 @media (max-width: 550px) and (min-width: 374px){
     .iphone{
@@ -117,10 +119,16 @@ nav{
     .learnBuyList ul{
         font-size: 1.15rem;
     }
+    .a_healthy{
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 900px){
     .div2{
         display: none;
+    }
+    .a_healthy{
+        font-size: 1.75rem;
     }
 
 }
