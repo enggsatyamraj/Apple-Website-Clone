@@ -82,6 +82,18 @@ nav{
 .another_iphone{
     font-weight: normal;
 }
+.watch8_div{
+    background:#000;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.a_healthy{
+    font-size:2rem;
+    color:#fff;
+    margin-top: 10px;
+}
 @media  screen and (max-width: 373px){
     .iphone{
         font-size:1.5rem;
