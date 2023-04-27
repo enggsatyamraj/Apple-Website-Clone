@@ -134,6 +134,32 @@ nav{
 .upgrade{
     text-align: center;
 }
+.wrap_up{
+    display:flex;
+    padding:20px;
+    gap:20px;
+}
+.wrap_up li{
+    list-style: none;
+    color:grey;
+}
+.class1{
+    flex:1;
+}
+.class2{
+    flex:1;
+}
+.class3{
+    flex:1;
+}
+@media screen and (max-width:480px){
+    .wrap_up{
+        display:flex;
+        flex-direction:column;
+        gap:0px;
+    }
+
+}
 @media screen and (max-width:365px) {
     .another_tradein {
         font-size: 1.5rem;
