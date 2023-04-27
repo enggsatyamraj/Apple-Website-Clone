@@ -143,6 +143,11 @@ nav{
 .wrap_up li{
     list-style: none;
     color:grey;
+    cursor:pointer;
+    font-size:0.5rem;
+}
+.wrap_up li:hover{
+    text-decoration: underline;
 }
 .class1{
     flex:1;
